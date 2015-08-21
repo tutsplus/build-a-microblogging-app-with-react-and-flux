@@ -1,0 +1,33 @@
+{
+  "name": "chirper",
+  "version": "1.0.0",
+  "description": "A very simple twitter clone built with React and Flux",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-browserify": "^0.5.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-plumber": "^1.0.1",
+    "reactify": "^1.1.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.13.2",
+    "cookie-parser": "^1.3.5",
+    "ejs": "^2.3.2",
+    "express": "^4.13.0",
+    "express-session": "^1.11.3",
+    "flux": "^2.0.3",
+    "locallydb": "0.0.9",
+    "moment": "^2.10.3",
+    "object-assign": "^3.0.0",
+    "passport": "^0.2.2",
+    "passport-local": "^1.0.0",
+    "react": "^0.13.3",
+    "react-router": "^0.13.3"
+  }
+}

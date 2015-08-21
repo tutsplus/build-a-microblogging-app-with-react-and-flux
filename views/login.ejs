@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Chirper App </title>
+    <link rel='stylesheet' href='/lib/skeleton/css/normalize.css' />
+    <link rel='stylesheet' href='/lib/skeleton/css/skeleton.css' />
+    <link rel='stylesheet' href='/style.css' />
+  </head>
+  <body>
+    <div class='container'>
+        <div class='row'>
+            <h1> Chirper </h1>
+        </div>
+
+        <div class='row'>
+
+            <div class='six columns'> 
+                <h2> Log In </h2>
+
+                <form action='/login' method='POST'>
+                    <p> <label> Username </label> <input type='text' name='username' class='u-full-width' /> </p>
+                    <p> <label> Password </label> <input type='password' name='password' class='u-full-width' /> </p>
+
+                    <p> <button class='button-primary'> Log In </button> </p>
+                </form>
+            </div>
+
+            <div class='six columns'>
+                <h2> Sign Up </h2>
+
+                <form action='/signup' method='POST'>
+                    <p> <label> Full Name </label> <input type='text' name='fullname' class='u-full-width' /> </p>
+                    <p> <label> Email (Will be used to get your Gravatar)</label> <input type='email' name='email' class='u-full-width' /> </p>
+                    <p> <label> Username </label> <input type='text' name='username' class='u-full-width' /> </p>
+                    <p> <label> Password </label> <input type='password' name='password' class='u-full-width' /> </p>
+
+                    <p> <button class='button-primary'> Sign Up </button> </p>
+                </form>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
