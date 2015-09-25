@@ -1,4 +1,4 @@
-# [Build a Microblogging App With React and Flux][published url]
+# [Build a Microblogging App With Flux and React][published url]
 ## Instructor: [Andrew Burgess][instructor url]
 
 
@@ -15,9 +15,9 @@ To install the NPM package dependencies, run `npm install` from the  project dir
 
 ------
 
-These are source files for the Tuts+ course: [Build a Microblogging App With React and Flux][published url]
+These are source files for the Tuts+ course: [Build a Microblogging App With Flux and React][published url]
 
 Available on [Tuts+](https://tutsplus.com). Teaching skills to millions worldwide.
 
-[published url]: https://code.tutsplus.com/courses/build-a-microblogging-app-with-react-and-flux
+[published url]: https://code.tutsplus.com/courses/build-a-microblogging-app-with-flux-and-react
 [instructor url]: https://tutsplus.com/authors/andrew-burgess
